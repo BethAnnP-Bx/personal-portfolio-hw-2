@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+/* header styles */
+header {
+  padding: 60px;
+  font-family: Garamond;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 40px;
+}
+
+header h1 {
+  display: flex;
+  font-size: 40px;
+  color: #64db88;
+  border-width: 30px;
+  border-style: groove;
+}
+
+/*header navigation styles*/
+header nav {
+  padding-top: 20px;
+  margin-right: 40px;
+  float: center;
+  font-family: Garamond;
+  font-size: 30px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-flex;
+  margin-left: 25px;
+}
+
+a {
+  color: #64db88;
+  text-decoration: underline;
+}
+
+.cool-subtitle {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 20px;
+  background: #64db88;
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-family: Garamond;
+  font-weight: bold;
+}
+
+.about-me {
+  padding-top: 30px;
+  color: black;
+  font-family: Garamond;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.BAP {
+  float: left;
+}
+
+.work-projects {
+  float: inline-start;
+  font-family: Garamond;
+  color: #64db88;
+  font-size: xx-large;
+}
