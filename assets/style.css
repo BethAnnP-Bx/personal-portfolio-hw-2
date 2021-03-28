@@ -74,10 +74,32 @@ a {
 }
 
 .BAP {
-  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: space-between;
+  width: auto;
 }
 
 .work {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  font-family: Garamond;
+  color: teal;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+.work-projects {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: space-between;
+  width: auto;
   font-family: Garamond;
   color: teal;
   font-size: xx-large;
