@@ -20,7 +20,7 @@ header {
   white-space: nowrap;
   font-size: 40px;
 }
-
+/*header title border box similar to mock up, yet personalized*/
 header h1 {
   display: flex;
   font-size: 40px;
@@ -47,11 +47,13 @@ header nav ul li {
   margin-left: 25px;
 }
 
+/*header navigation tex-decoration underlined to look similar to mock-up*/
 a {
   color: teal;
   text-decoration: underline;
 }
 
+/*cool subtitle styling*/
 .cool-subtitle {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -64,6 +66,7 @@ a {
   font-weight: bold;
 }
 
+/*about me and projects styling*/
 .about-me {
   padding-top: 20px;
   color: black;
@@ -82,9 +85,11 @@ a {
   font-size: 40px;
   display: block;
   margin-left: auto;
-  margin-right: auto;    width: 50%;
- }
+  margin-right: auto;
+  width: 50%;
+}
 
+/*styled nav for projects as could not get flex to work properly*/
 .beth-projects nav {
   padding-top: 10px;
   padding-bottom: 20px;
@@ -96,26 +101,30 @@ a {
   list-style-type: none;
   display: block;
   margin-left: auto;
-  margin-right: auto;    width: 50%;
+  margin-right: auto;
+  width: 50%;
 }
 
+/*styled applications with grow on hover toward challenge acceptance critera*/
 .project-nav {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .project-nav:hover {
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
+/*recent pic styles*/
 .bap {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+/*footer styles*/
 footer h2 {
-text-align: center;
-width: 100%;
-color:teal;
-/*beth-projects navigation styles*/
+  text-align: center;
+  width: 100%;
+  color: teal;
+}
