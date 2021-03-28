@@ -73,33 +73,13 @@ a {
   text-align: center;
 }
 
-.BAP {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: left;
-  justify-content: space-between;
-  width: auto;
-}
-
-.work {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  width: auto;
-  font-family: Garamond;
-  color: teal;
-  font-size: xx-large;
-  text-decoration: underline;
-}
-
-.work-projects {
+.beth-flex-projects {
   padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  align-items: left;
   justify-content: space-between;
   width: auto;
+  display: flex;
   font-family: Garamond;
   color: teal;
   font-size: xx-large;
