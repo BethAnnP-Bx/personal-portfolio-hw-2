@@ -75,19 +75,20 @@ a {
 
 .beth-projects h1 {
   float: right;
-  font-size: 40px;
+  font-size: 50px;
   color: teal;
-  border-width: 15px;
+  border-width: 30px;
   border-style: inset;
 }
 
 .beth-projects nav {
   padding-top: 80px;
   padding-bottom: 20px;
-  margin-right: 230px;
-  float: right;
   font-family: Garamond;
-  font-size: 50px;
+  font-size: 55px;
+  margin-left: 300px;
+  margin-right: 200px;
+  float: right;
 }
 
 .beth-projects nav ul {
@@ -95,8 +96,6 @@ a {
 }
 
 .beth-projects nav ul li {
-  width: auto;
-  border-bottom-left-radius: 2px;
 }
 
 /*beth-projects navigation styles*/
