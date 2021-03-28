@@ -16,7 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: auto;
   white-space: nowrap;
   font-size: 40px;
 }
@@ -74,14 +74,14 @@ a {
 }
 
 .beth-projects h1 {
-  float: right;
+  margin-bottom: 80px;
+  display: inline-block;
   font-size: 50px;
   color: teal;
   border-width: 30px;
   border-style: inset;
   font-size: 40px;
-  margin-right: 80px;
-}
+ }
 
 .beth-projects nav {
   padding-top: 40px;
@@ -90,14 +90,16 @@ a {
   font-size: 55px;
   margin-left: 300px;
   margin-right: 200px;
-  float: right;
+  display: inline-block;
+  justify-content: space-between;
 }
 
 .beth-projects nav ul {
   list-style-type: none;
 }
 
-.beth-projects nav ul li {
+.bap {
+  float: center;
 }
 
 footer h2 {
