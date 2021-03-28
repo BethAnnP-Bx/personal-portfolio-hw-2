@@ -73,14 +73,30 @@ a {
   text-align: center;
 }
 
-.beth-flex-projects {
-  padding-top: 30px;
+.beth-projects h1 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: auto;
-  display: flex;
-  font-family: Garamond;
+  justify-content: center;
+  font-size: 40px;
   color: teal;
-  font-size: xx-large;
+  border-width: 30px;
+  border-style: inset;
 }
+
+.beth-projects nav {
+  padding-top: 20px;
+  margin-right: 40px;
+  float: right;
+  font-family: Garamond;
+  font-size: 30px;
+}
+
+.beth-projects nav ul {
+  list-style-type: none;
+}
+
+.beth-projects nav ul li {
+  display: inline-flex;
+  margin-left: 200px;
+}
+
+/*beth-projects navigation styles*/
