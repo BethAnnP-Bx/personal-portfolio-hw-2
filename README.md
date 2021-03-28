@@ -46,4 +46,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - Observed responsiveness is not optimized on smaller screens as intended
 - Each application of "projects" linked should have its own zoom hover. Although it does satisfy the user acceptance criteria that the "image", in this case the text is larger on hover for example on "SQL".
 - The "about me" section link will not navigate when on a large screen, but on a smaller screen click "about me" link in header nav and it does navigate to this section successfully.
-- All styles need much work to be polished and flex should have been implemented not nav. I could not employ succesful flex boxes and switched to a second nav section to implement functionality similar to mock up.
+- All styles need much work to be polished and flex should have been implemented not nav. I could not employ successful flex boxes and switched to a second nav section to implement functionality similar to mock up.
