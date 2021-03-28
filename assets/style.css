@@ -99,6 +99,14 @@ a {
   margin-right: auto;    width: 50%;
 }
 
+.project-nav {
+  transition: all .2s ease-in-out;
+}
+
+.project-nav:hover {
+transform: scale(1.1);
+}
+
 .bap {
     display: block;
     margin-left: auto;
