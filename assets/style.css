@@ -24,7 +24,7 @@ header {
 header h1 {
   display: flex;
   font-size: 40px;
-  color: #64db88;
+  color: teal;
   border-width: 30px;
   border-style: groove;
 }
@@ -48,7 +48,7 @@ header nav ul li {
 }
 
 a {
-  color: #64db88;
+  color: teal;
   text-decoration: underline;
 }
 
@@ -56,7 +56,7 @@ a {
   padding-top: 15px;
   padding-bottom: 15px;
   margin: 20px;
-  background: #64db88;
+  background: teal;
   color: black;
   text-align: center;
   font-size: xx-large;
@@ -77,9 +77,8 @@ a {
   float: left;
 }
 
-.work-projects {
-  float: inline-start;
+.work {
   font-family: Garamond;
-  color: #64db88;
+  color: teal;
   font-size: xx-large;
 }
